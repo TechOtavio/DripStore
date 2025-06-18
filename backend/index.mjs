@@ -143,6 +143,14 @@ app.post('/verificarLogin', async (req, res) => {
   }
 });
 
+app.get('/produtos', (req, res) => {
+  const query = 'SELECT * FROM produtos';
+  db.query(query, (err, results) => {
+    if (err) return res.status(500).json({ erro: 'Erro ao buscar produtos' });
+    res.json(results);
+  });
+});
+
 
 
 
