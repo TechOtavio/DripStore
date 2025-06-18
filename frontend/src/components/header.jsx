@@ -116,9 +116,10 @@ const Header = () => {
             </ul>
 
             {/* Parte lateral (login, carrinho) */}
-            <div className="d-flex align-items-center mt-3 mt-lg-0">👤
+            <div className="d-flex align-items-center mt-3 mt-lg-0">
               {!user?.email ? (
                 <>
+                
                   <NavLink
                     to="/DripStore/CadastreSe"
                     className="me-3 text-decoration-none fw-bold"
@@ -135,7 +136,7 @@ const Header = () => {
                   </Link>
                 </>
               ) : (
-                <>
+                <>👤
                   <span className="me-3 fw-bold" style={{ color: "#00bcd4", fontSize: "14px" }}>
                     {user.email}
                   </span>
