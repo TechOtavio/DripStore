@@ -16,7 +16,7 @@
 
 ### Frontend
 - [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)1
+- [Vite](https://vitejs.dev/)
 - [React Router DOM](https://reactrouter.com/)
 - [Bootstrap](https://getbootstrap.com/) — para estilização e responsividade
 - [Lucide React](https://lucide.dev/) — ícones SVG modernos
@@ -30,7 +30,8 @@
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) — autenticação via JWT
 - [cors](https://www.npmjs.com/package/cors)
 
----
+### Banco de Dados
+- [AWS](https://aws.amazon.com/)
 
 ## 📁 Estrutura de Pastas
 
